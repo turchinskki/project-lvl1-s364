@@ -1,4 +1,4 @@
-<a href="https://codeclimate.com/github/turchinskki/project-lvl1-s364/test_coverage"><img src="https://api.codeclimate.com/v1/badges/21ec847e3785879c120c/test_coverage" /></a>
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
  <a href="https://codeclimate.com/github/turchinskki/project-lvl1-s364/maintainability"><img src="https://api.codeclimate.com/v1/badges/21ec847e3785879c120c/maintainability" /></a>
  [![Build Status](https://travis-ci.org/turchinskki/project-lvl1-s364.svg?branch=master)](https://travis-ci.org/turchinskki/project-lvl1-s364)
  
