@@ -11,7 +11,6 @@ const defaultGame = (task, getQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
   console.log(task);
   const userName = askName();
-  const wellDone = () => console.log(`Congratulations, ${userName}!`);
   const finalRound = 3;
   for (let round = 0; round < finalRound; round += 1) {
     const { question, trueAnswer } = getQuestionAnswer();
@@ -21,9 +20,9 @@ const defaultGame = (task, getQuestionAnswer) => {
       console.log('Correct!');
     } else {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${trueAnswer}.\nLet's try again, ${userName}!`);
-      return false;
+      return;
     }
   }
-  return wellDone();
+  console.log(`Congratulations, ${userName}!`);
 };
 export default defaultGame;

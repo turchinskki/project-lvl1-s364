@@ -1,7 +1,20 @@
 import defaultGame from '..';
-import { getRandom, getCalculate } from '../functions';
+import getRandom from '../functions';
 
 const getQuestionAnswer = () => {
+  const getCalculate = (Num1, Num2, operation) => {
+    switch (operation) {
+      case '+':
+        return Num1 + Num2;
+      case '-':
+        return Num1 - Num2;
+      case '*':
+        return Num1 * Num2;
+      default:
+        return NaN;
+    }
+  };
+
   const Number1 = getRandom();
   const Number2 = getRandom();
   const Marks = ['*', '-', '+'];
