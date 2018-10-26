@@ -3,7 +3,7 @@
  [![Build Status](https://travis-ci.org/turchinskki/project-lvl1-s364.svg?branch=master)](https://travis-ci.org/turchinskki/project-lvl1-s364)
   
  
-[brain-even](https://asciinema.org/a/7Cvjz5Qf3DPum9HbLyoXo5WdH)<br/>
-[brain-calc](https://asciinema.org/a/d44mKenvbZH7xk8DLBHPPaNK3)<br/>
+[brain-even](https://asciinema.org/a/Tz5w9Puao1Mq0AA3We0vfo4s6)<br/>
+[brain-calc](https://asciinema.org/a/Uqh173db3CYWU4HlwquBwXy6S)<br/>
 [brain-gcd](https://asciinema.org/a/a7CaBOL7iTMQJiylq4lhRdU73)<br/>
 
