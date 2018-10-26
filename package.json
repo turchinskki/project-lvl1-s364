@@ -1,6 +1,6 @@
 {
   "name": "project_artur_brain_games",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "mini game 'Brain-games' launched from the console",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turchinskki/project-lvl1-s356.git"
+    "url": "git+https://github.com/turchinskki/project-lvl1-s364.git"
   },
   "keywords": [
     "homepage",
@@ -30,9 +30,9 @@
   "author": "Artur Achtyamov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/turchinskki/project-lvl1-s356/issues"
+    "url": "https://github.com/turchinskki/project-lvl1-s364/issues"
   },
-  "homepage": "https://github.com/turchinskki/project-lvl1-s356#readme",
+  "homepage": "https://github.com/turchinskki/project-lvl1-s364#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
