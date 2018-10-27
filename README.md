@@ -18,3 +18,6 @@
  
  [![asciicast](https://asciinema.org/a/T6JDF9P25YDfTwnIAWAjpll6A.png)](https://asciinema.org/a/T6JDF9P25YDfTwnIAWAjpll6A)
 
+ Run Prime
+ 
+ [![asciicast](https://asciinema.org/a/evuIlvRF4zC85lohgTzfCK7FP.png)](https://asciinema.org/a/evuIlvRF4zC85lohgTzfCK7FP)
