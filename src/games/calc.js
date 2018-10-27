@@ -1,7 +1,7 @@
-import defaultGame from '..';
+import gameProcess from '..';
 import getRandom from '../utils';
 
-const task = 'What is the result of the expression?\n';
+const task = 'What is the result of the expression?';
 
 const getQuestionAnswer = () => {
   const getCalculate = (Num1, Num2, operation) => {
@@ -17,8 +17,8 @@ const getQuestionAnswer = () => {
     }
   };
 
-  const number1 = getRandom();
-  const number2 = getRandom();
+  const number1 = getRandom(1, 10);
+  const number2 = getRandom(1, 10);
   const marks = ['*', '-', '+'];
   const randomMarksArray = arr => Math.floor(Math.random() * arr.length);
   const index = randomMarksArray(marks);
@@ -28,8 +28,4 @@ const getQuestionAnswer = () => {
   return { question, trueAnswer };
 };
 
-const runCalc = () => {
-  defaultGame(task, getQuestionAnswer);
-};
-
-export default runCalc;
+export default () => gameProcess(task, getQuestionAnswer);

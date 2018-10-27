@@ -6,11 +6,12 @@ const askName = () => {
   return userName;
 };
 
-const defaultGame = (task, getQuestionAnswer) => {
+const finalRound = 3;
+
+const gameProcess = (task, getQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
   console.log(task);
   const userName = askName();
-  const finalRound = 3;
   for (let round = 0; round < finalRound; round += 1) {
     const { question, trueAnswer } = getQuestionAnswer();
     console.log(`Question: ${question}`);
@@ -25,4 +26,4 @@ const defaultGame = (task, getQuestionAnswer) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default defaultGame;
+export default gameProcess;

@@ -1,21 +1,15 @@
-import defaultGame from '..';
+import gameProcess from '..';
+import getRandom from '../utils';
 
-const task = 'Answer "yes" if number even otherwise answer "no"\n ';
+const task = 'Answer "yes" if number even otherwise answer "no" ';
 
-const minNumber = 1;
-const maxNumber = 10;
-const getRandom = () => Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
 const isEven = num => (num % 2) === 0;
 const getAnswer = num => (isEven(num) ? 'yes' : 'no');
 
 const getQuestionAnswer = () => {
-  const question = String(getRandom());
+  const question = String(getRandom(1, 10));
   const trueAnswer = getAnswer(question);
   return { question, trueAnswer };
 };
 
-const runEven = () => {
-  defaultGame(task, getQuestionAnswer);
-};
-
-export default runEven;
+export default () => gameProcess(task, getQuestionAnswer);
