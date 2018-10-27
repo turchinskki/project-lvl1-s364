@@ -2,7 +2,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/fb188b5b1a0b0a8bf449/test_coverage)](https://codeclimate.com/github/turchinskki/project-lvl1-s364/test_coverage)
  [![Build Status](https://travis-ci.org/turchinskki/project-lvl1-s364.svg?branch=master)](https://travis-ci.org/turchinskki/project-lvl1-s364)
   
-  Welcome to the Brain Games!
+  Welcome to the Brain Games!<br/>
  Run Even
  
 [![asciicast](https://asciinema.org/a/Tz5w9Puao1Mq0AA3We0vfo4s6.png)](https://asciinema.org/a/Tz5w9Puao1Mq0AA3We0vfo4s6)
