@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
 
-
 const askName = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hi, ${userName}!`);
@@ -25,4 +24,5 @@ const defaultGame = (task, getQuestionAnswer) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
+
 export default defaultGame;

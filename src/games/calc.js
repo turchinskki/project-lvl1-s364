@@ -1,5 +1,7 @@
 import defaultGame from '..';
-import getRandom from '../functions';
+import getRandom from '../utils';
+
+const task = 'What is the result of the expression?\n';
 
 const getQuestionAnswer = () => {
   const getCalculate = (Num1, Num2, operation) => {
@@ -15,19 +17,19 @@ const getQuestionAnswer = () => {
     }
   };
 
-  const Number1 = getRandom();
-  const Number2 = getRandom();
-  const Marks = ['*', '-', '+'];
+  const number1 = getRandom();
+  const number2 = getRandom();
+  const marks = ['*', '-', '+'];
   const randomMarksArray = arr => Math.floor(Math.random() * arr.length);
-  const index = randomMarksArray(Marks);
-  const sign = Marks[index];
-  const trueAnswer = String(getCalculate(Number1, Number2, sign));
-  const question = (`${Number1} ${sign} ${Number2}`);
+  const index = randomMarksArray(marks);
+  const sign = marks[index];
+  const trueAnswer = String(getCalculate(number1, number2, sign));
+  const question = (`${number1} ${sign} ${number2}`);
   return { question, trueAnswer };
 };
 
 const runCalc = () => {
-  const task = 'What is the result of the expression?\n';
   defaultGame(task, getQuestionAnswer);
 };
+
 export default runCalc;
